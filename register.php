@@ -1,4 +1,17 @@
+
+<?php
+if (isset($_POST[loginButton])) {
+  echo "login page";
+  // code...
+}
+
+
+ ?>
+
+
+
 <!DOCTYPE html>
+
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -35,12 +48,12 @@
             <input type="email2" name="email2" value="text"placeholder="e.g.asadkhan"></p>
 
               <p><label for="loginPassword">login Password</label>
-              <input type="loginPassword" name="loginPassword" value="password"placeholder="Your Password"></p>
+              <input type="Password" name="Password" value="Password"placeholder="Your Password"></p>
 
 
 
-      <p><label for="password2">conform password</label>
-      <input type="password2" name="password2" value="Password"placeholder="Your Password"></p>
+      <p><label for="password">conform password</label>
+      <input type="password" name="password" value="Password"placeholder="Your Password"></p>
       <button type="submit" name="registerButton">SIGN UP</button>
       </form>
     </div>
