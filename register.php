@@ -8,7 +8,11 @@
     <div class="inputContainer">
       <form class="loginForm" action="register.php" method="post">
       <h2>login to your account</h2>
-      <input type="loginUsername" name="loginUsername" value="text"placeholder="e.g.asadkhan">
+      <label for="loginUsername">Username</label>
+      <p><input type="loginUsername" name="loginUsername" value="text"placeholder="e.g.asadkhan"></p>
+      <label for="loginpassword">password</label>
+      <p><input type="password" name="password" value="password"placeholder="e.g.asadkhan"></p>
+    <button type="submit" name="loginButton">LOG IN</button>
       </form>
 
     </div>
