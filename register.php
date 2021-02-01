@@ -40,7 +40,7 @@
 
 
       <label for="password2">conform password</label>
-      <p><input type="password2" name="password2" value="password"placeholder="Your Password"></p>
+      <p><input type="password2" name="password2" value="Password"placeholder="Your Password"></p>
       <button type="submit" name="registerButton">SIGN UP</button>
       </form>
     </div>
